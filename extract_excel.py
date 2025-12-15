@@ -15,4 +15,6 @@ def extract_text_from_excel(file_path:str) -> str:
     return all_text
 
 if __name__ == "__main__":
-    file_path = "example_file"
+    file_path = "example_file/example.xlsx"
+    result = extract_text_from_excel(file_path)
+    print(result)

@@ -1,0 +1,10 @@
+<books>
+    <book id="1">
+        <title>Python 入门</title>
+        <price>39.9</price>
+    </book>
+    <book id="2">
+        <title>数据科学</title>
+        <price>49.9</price>
+    </book>
+</books>
