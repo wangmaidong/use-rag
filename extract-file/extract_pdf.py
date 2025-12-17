@@ -14,7 +14,7 @@ def extract_pdf_text(pdf_path:str) -> str:
 
 if __name__ == "__main__":
     # 指定要读取的PDF文件名
-    pdf_file = "example_file/example.pdf"
+    pdf_file = "../example_file/example.pdf"
     # 调用函数提取PDF文本
     result_text = extract_pdf_text(pdf_file)
     # 打印提取到的文本内容

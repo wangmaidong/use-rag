@@ -12,6 +12,6 @@ def extract_xml_text(file_path):
     return text
 
 if __name__ == "__main__":
-    file_path = "example_file/example.xml"
+    file_path = "../example_file/example.xml"
     result = extract_xml_text(file_path)
     print(result)

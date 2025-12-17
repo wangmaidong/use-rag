@@ -11,6 +11,6 @@ def extract_text_from_word(file_path:str) -> str:
     return text
 
 if __name__ == "__main__":
-    file_path = "example_file/example.docx"
+    file_path = "../example_file/example.docx"
     result = extract_text_from_word(file_path)
     print(result)

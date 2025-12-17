@@ -14,6 +14,6 @@ def read_csv_to_text(file_path):
     return all_text
 
 if __name__ == "__main__":
-    file_path = "example_file/example.csv"
+    file_path = "../example_file/example.csv"
     result = read_csv_to_text(file_path)
     print(result)

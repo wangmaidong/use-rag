@@ -15,6 +15,6 @@ def read_and_print_json(file_path):
     print(text)
 
 if __name__ == "__main__":
-    file_path = "example_file/example.json"
+    file_path = "../example_file/example.json"
     result = read_and_print_json(file_path)
     print(file_path)
